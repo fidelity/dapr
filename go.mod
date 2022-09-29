@@ -3,7 +3,7 @@ module github.com/dapr/dapr
 go 1.19
 
 require (
-	contrib.go.opencensus.io/exporter/prometheus v0.4.1
+	contrib.go.opencensus.io/exporter/prometheus v0.4.2
 	github.com/AdhityaRamadhanus/fasthttpcors v0.0.0-20170121111917-d4c07198763a
 	github.com/PuerkitoBio/purell v1.1.1
 	github.com/agrea/ptr v0.0.0-20180711073057-77a518d99b7b
@@ -32,9 +32,9 @@ require (
 	github.com/openzipkin/zipkin-go v0.4.0 // indirect
 	github.com/phayes/freeport v0.0.0-20220201140144-74d24b5ae9f5
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.12.2
+	github.com/prometheus/client_golang v1.13.0
 	github.com/prometheus/client_model v0.2.0
-	github.com/prometheus/common v0.35.0
+	github.com/prometheus/common v0.37.0
 	github.com/sony/gobreaker v0.4.2-0.20210216022020-dd874f9dd33b
 	github.com/stretchr/testify v1.8.0
 	github.com/valyala/fasthttp v1.40.0
@@ -46,7 +46,7 @@ require (
 	golang.org/x/net v0.0.0-20220927171203-f486391704dc
 	google.golang.org/genproto v0.0.0-20220622171453-ea41d75dfa0f
 	google.golang.org/grpc v1.48.0
-	google.golang.org/protobuf v1.28.0
+	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.23.0
 	k8s.io/apiextensions-apiserver v0.23.0
@@ -184,7 +184,7 @@ require (
 	github.com/frankban/quicktest v1.14.3 // indirect
 	github.com/go-errors/errors v1.4.0 // indirect
 	github.com/go-kit/kit v0.10.0 // indirect
-	github.com/go-kit/log v0.2.0 // indirect
+	github.com/go-kit/log v0.2.1 // indirect
 	github.com/go-logfmt/logfmt v0.5.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.2.5 // indirect
@@ -295,8 +295,8 @@ require (
 	github.com/pkg/browser v0.0.0-20210115035449-ce105d075bb4 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/pquerna/cachecontrol v0.0.0-20180517163645-1555304b9b35 // indirect
-	github.com/prometheus/procfs v0.7.3 // indirect
-	github.com/prometheus/statsd_exporter v0.22.3 // indirect
+	github.com/prometheus/procfs v0.8.0 // indirect
+	github.com/prometheus/statsd_exporter v0.22.7 // indirect
 	github.com/rabbitmq/amqp091-go v1.3.4 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
